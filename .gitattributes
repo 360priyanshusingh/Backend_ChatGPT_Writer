@@ -1,2 +1,5 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+packages/next/bundles/** -text linguist-vendored
+packages/next/compiled/** -text linguist-vendored
+
+# Make next/src/build folder indexable for github search
+build/** linguist-generated=false
